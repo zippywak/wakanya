@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+form h1{
+    font-weight: 300;
+}
+form p{
+    font-size: 18px;
+}
+form input{
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+}
+form button{
+    background-color: orange;
+    color: black;
+    margin: 10px 0;
+    height: 40px;
+    width: 140px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+form button:hover{
+    color: black;
+    background-color: white;
+}
